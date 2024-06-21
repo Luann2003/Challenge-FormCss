@@ -20,7 +20,9 @@
 
 h2{
     margin: 10px;
+    color: gray;
     font-family: 'Karla-bold', Arial, sans-serif;
+    font-weight: bold;
 }
 
 body{
@@ -41,7 +43,8 @@ main{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 600px; /* ajuste conforme necessário */
     height: auto; /* ajuste conforme necessário */
-    font-family: 'Karla-Regular', Arial, sans-serif;
+    font-family: 'Karla-Variable', Arial, sans-serif;
+    
 }
 
 .container{
@@ -73,6 +76,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 
 label {
+    color: gray;
     margin-bottom: 5px;
     font-weight: bold;
     font-size: 14px;
