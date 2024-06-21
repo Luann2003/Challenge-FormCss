@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Karla-Bold';
+    src: url('/assets/fonts/static/Karla-Bold.ttf') format('truetype');
+
+    font-family: 'Karla-Regular';
+    src: url('/assets/fonts/static/Karla-Regular.ttf') format('truetype');
+
+    font-family: 'Karla-Italic';
+    src: url('/assets/fonts/Karla-Italic-VariableFont_wght.ttf') format('truetype');
+
+    font-family: 'Karla-Variable';
+    src: url('/assets/fonts/Karla-VariableFont_wght.ttf') format('truetype');
+}
+
+h2{
+    margin: 10px;
+    font-family: 'Karla-bold', Arial, sans-serif;
+}
+
+body{
+     height: 100vh;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgba(121, 121, 121, 0.568);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 600px; /* ajuste conforme necessário */
+    height: auto; /* ajuste conforme necessário */
+    font-family: 'Karla-Regular', Arial, sans-serif;
+}
+
+.container{
+    width: 100%;
+}
+
+.form-group{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%; /* Faz o input ocupar 100% da largura do container pai */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border: 1px solid #ccc; /* Define a cor e largura da borda */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    box-shadow: none; /* Remove a sombra padrão */
+    font-size: 16px; /* Define o tamanho da fonte */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Adiciona transições suaves para borda e sombra */
+}
+
+.form-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.radio{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.radio-row{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;          
+    gap: 5px;
+}
+
+.edit-radio{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1;
+    border: 1px solid #ccc; /* Define a cor e largura da borda */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    box-shadow: none; /* Remove a sombra padrão */
+    font-size: 16px; /* Define o tamanho da fonte */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Adiciona transições suaves para borda e sombra */
+
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+}
+
+#message{
+    height: 90px;
+}
+
+.checkbox{
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.checkbox-label{
+    font-size: 11px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.btn{
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(27, 103, 87);
+    width: 100%;
+    height: 35px;
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #14564D; /* Cor do botão ao passar o mouse */
+}
